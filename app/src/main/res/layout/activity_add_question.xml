@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MenuActivity">
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="22dp"
+        android:ems="15"
+        android:hint="Soru"
+        android:inputType="textMultiLine" />
+
+
+
+    <EditText
+        android:id="@+id/ans1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="22dp"
+        android:ems="15"
+        android:hint="A şıkkı"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/ans2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ans1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="22dp"
+        android:ems="15"
+        android:hint="B şıkkı"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ans3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ans2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="22dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint="C şıkkı" />
+
+    <EditText
+        android:id="@+id/ans4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ans3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="22dp"
+        android:ems="15"
+        android:hint="D şıkkı"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ans5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ans4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="22dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint="E şıkkı" />
+
+    <EditText
+        android:id="@+id/correct_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ans5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Doğru Cevap"/>
+
+    <Button
+        android:id="@+id/save_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/correct_answer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:text="@string/save" />
+
+</RelativeLayout>

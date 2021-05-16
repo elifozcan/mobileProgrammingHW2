@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MenuActivity">
+
+
+    <ImageView
+        android:id="@+id/profil_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="550dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="270dp"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="180dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="600dp"
+        android:text="Name" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/question_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="370dp"
+        android:ems="10"
+        android:layout_marginRight="220dp"
+        android:background="@color/purple_500"
+        android:text="Soru Ekle" />
+
+    <Button
+        android:id="@+id/question_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="370dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="220dp"
+        android:background="@color/purple_500"
+        android:text="Soruları
+                        Listele" />
+
+    <Button
+        android:id="@+id/create_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="220dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:background="@color/purple_500"
+        android:text="Sınav Oluştur" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="220dp"
+        android:background="@color/purple_500"
+        android:text="Sınav Ayarları" />
+
+</RelativeLayout>

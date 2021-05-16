@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">17011001</string>
+    <string name="example_email">someone@example.com</string>
+    <string name="password">Password</string>
+    <string name="login">GİRİŞ YAP</string>
+    <string name="new_acc">YENİ HESAP OLUŞTUR</string>
+    <string name="save">Kaydet</string>
+
+</resources>
